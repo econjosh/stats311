@@ -1724,7 +1724,7 @@ div.tocify {
 <a class="sourceLine" id="cb3-2" data-line-number="2">y &lt;-<span class="st"> </span><span class="dv">17</span></a>
 <a class="sourceLine" id="cb3-3" data-line-number="3">z <span class="op">-</span><span class="st"> </span>y</a></code></pre></div>
 <p>The lines should work fine, and -5 should be printed. Now, try putting the code <code>z-y</code> into a code chunk in your R Markdown document, and try to knit the document. What happened? Why did this happen? Discuss as a group.</p>
-<p>It is also important in an R Markdown document that all variables are defined in order. You will notice that exercise 5 contains two code chunks in your template. What happens if you put <code>x-y</code> in the first code chunk and you put <code>z &lt;- 12</code> and <code>y &lt;- 17</code> in the second code chunk? Try knitting the document. What happens? Why?</p>
+<p>It is also important in an R Markdown document that all variables are defined in order. You will notice that exercise 5 contains two code chunks in your template. What happens if you put <code>z-y</code> in the first code chunk and you put <code>z &lt;- 12</code> and <code>y &lt;- 17</code> in the second code chunk? Try knitting the document. What happens? Why?</p>
 <ol start="5" style="list-style-type: decimal">
 <li>Resolve the issue that you ran into above so that exercise 5 correctly saves a variable called <code>z</code>, a variable called <code>y</code>, and prints the difference.</li>
 </ol>
